@@ -333,7 +333,7 @@ body {
 	color: #fafafa;
 	background-size: cover;
 	background-position: 50%;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/5ciemna.jpg);
 }
 .header-title {
