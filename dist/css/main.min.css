@@ -1251,6 +1251,9 @@ body {
 	}
 }
 @media (min-width: 1440px) {
+		.header {
+		background-position: 0 0;
+	}
 	.aboutme__box-item--text {
 		padding-right: 5em;
 		line-height: 25px;
