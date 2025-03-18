@@ -346,7 +346,7 @@ body {
 	background-size: cover;
 	background-position: 50%;
 	background-attachment: scroll;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(..img/5ciemna.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/5ciemna.jpg);
 }
 .header-title {
 	font-size: 2.6rem;
@@ -410,10 +410,10 @@ body {
 	background-repeat: no-repeat;
 }
 .aboutme__box-item--firstImg {
-	background-image: url(..img/7.jpg);
+	background-image: url(../img/7.jpg);
 }
 .aboutme__box-item--secondImg {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(..img/4.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(../img/4.jpg);
 }
 .aboutme__box-item--text {
 	font-weight: 500;
@@ -459,19 +459,19 @@ body {
 	background-repeat: no-repeat;
 }
 .benefits__boxes-box .firstImg {
-	background-image: url(..img/plan2.svg);
+	background-image: url(../img/plan2.svg);
 }
 .benefits__boxes-box .secondImg {
-	background-image: url(..img/book.svg);
+	background-image: url(../img/book.svg);
 }
 .benefits__boxes-box .thirdImg {
-	background-image: url(..img/rocket.svg);
+	background-image: url(../img/rocket.svg);
 }
 .benefits__boxes-box .fourthImg {
-	background-image: url(..img/path.svg);
+	background-image: url(../img/path.svg);
 }
 .benefits__boxes-box .fifthImg {
-	background-image: url(..img/support.svg);
+	background-image: url(../img/support.svg);
 }
 .benefits__boxes-box--text {
 	display: flex;
@@ -582,16 +582,16 @@ body {
 	color: #f25f3a;
 }
 .offers__boxes-box-offer--first {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(..img/8.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(../img/8.jpg);
 	background-position: 0, -200px;
 }
 .offers__boxes-box-offer--second {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(..img/12.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(../img/12.jpg);
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
 .offers__boxes-box-offer--third {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(..img/11.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(../img/11.jpg);
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
@@ -601,7 +601,7 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-image: url(..img/builder.png);
+	background-image: url(../img/builder.png);
 	background-size: contain;
 	background-position: 50%;
 	background-repeat: no-repeat;
