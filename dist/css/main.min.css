@@ -672,6 +672,11 @@ body {
 	outline: solid #f25f3a;
 	font-family: inherit;
 }
+.contact__form-box .error {
+	font-size: 14px;
+	margin-top: 5px;
+	color: #ff4d4d;
+}
 .contact__form .contact-btn {
 	padding: 1em 1.1em;
 	margin: 0 auto;
