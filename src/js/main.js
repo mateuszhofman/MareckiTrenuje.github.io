@@ -58,6 +58,49 @@ questionBtn.forEach((btn, index) => {
 		setActiveQuestion(index)
 	})
 })
+// CONTACT
+document.addEventListener('DOMContentLoaded', function () {
+	const form = document.querySelector('.contact__form')
+
+	form.addEventListener('submit', function (event) {
+		event.preventDefault()
+		let isValid = true
+
+		document.querySelectorAll('.error').forEach(el => (el.textContent = ''))
+
+		const nameInput = document.getElementById('name')
+		const nameError = nameInput.parentNode.querySelector('.error')
+		if (!nameInput.value.trim()) {
+			nameError.textContent = 'Proszę podać imię i nazwisko.'
+			isValid = false
+		}
+
+		const emailInput = document.getElementById('email')
+		const emailError = emailInput.parentNode.querySelector('.error')
+		if (!validateEmail(emailInput.value.trim())) {
+			emailError.textContent = 'Proszę podać poprawny adres email.'
+			isValid = false
+		}
+
+		const msgInput = document.getElementById('msg')
+		const msgError = msgInput.parentNode.querySelector('.error')
+		if (!msgInput.value.trim()) {
+			msgError.textContent = 'Proszę wpisać wiadomość.'
+			isValid = false
+		}
+
+		if (isValid) {
+			form.submit()
+		}
+	})
+
+	function validateEmail(email) {
+		const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+		return re.test(email)
+	}
+})
+
+
 
 // FOOTER
 const handleCurrentYear = () => {
