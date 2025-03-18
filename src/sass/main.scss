@@ -740,6 +740,11 @@ body {
 				outline: solid $Primary;
 				font-family: inherit;
 			}
+			.error{
+				font-size: 14px;
+				margin-top: 5px;
+				color: #ff4d4d;
+			}
 		}
 		.contact-btn {
 			padding: 1em 1.1em;
